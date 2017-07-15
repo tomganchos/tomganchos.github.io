@@ -1,14 +1,14 @@
-import { Turizm8Page } from './app.po';
+import { Turizm9Page } from './app.po';
 
-describe('turizm8 App', () => {
-  let page: Turizm8Page;
+describe('turizm9 App', () => {
+  let page: Turizm9Page;
 
   beforeEach(() => {
-    page = new Turizm8Page();
+    page = new Turizm9Page();
   });
 
-  it('should display message saying app works', () => {
+  it('should display welcome message', () => {
     page.navigateTo();
-    expect(page.getParagraphText()).toEqual('app works!');
+    expect(page.getParagraphText()).toEqual('Welcome to app!');
   });
 });

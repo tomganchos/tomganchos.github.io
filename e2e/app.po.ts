@@ -1,6 +1,6 @@
-import { browser, element, by } from 'protractor';
+import { browser, by, element } from 'protractor';
 
-export class Turizm8Page {
+export class Turizm9Page {
   navigateTo() {
     return browser.get('/');
   }
